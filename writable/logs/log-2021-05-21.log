@@ -1,0 +1,251 @@
+CRITICAL - 2021-05-21 04:35:54 --> Undefined array key "page_buku"
+#0 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Buku.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Buku->index()
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-21 04:36:13 --> Undefined variable $_SESSION
+#0 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Buku.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Buku->index()
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-21 04:53:08 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Admin.php(23): redirect('http://localhos...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->deleteData('9789792257777')
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-21 20:08:59 --> Call to undefined method App\Models\PenulisModel::getPenulis
+#0 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Penulis.php(19): CodeIgniter\Model->__call('getPenulis', Array)
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Penulis->index()
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-05-21 20:09:05 --> mysqli_sql_exception: Not unique table/alias: 'buku' in C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\app\Models\PenulisModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Penulis.php(19): App\Models\PenulisModel->getPenulis()
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Penulis->index()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-21 20:09:05 --> Not unique table/alias: 'buku'
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\app\Models\PenulisModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Penulis.php(19): App\Models\PenulisModel->getPenulis()
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Penulis->index()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-05-21 20:09:32 --> mysqli_sql_exception: Not unique table/alias: 'buku' in C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\app\Models\PenulisModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Penulis.php(20): App\Models\PenulisModel->getPenulis()
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Penulis->index()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-21 20:09:32 --> Not unique table/alias: 'buku'
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\app\Models\PenulisModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Penulis.php(20): App\Models\PenulisModel->getPenulis()
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Penulis->index()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-05-21 20:09:40 --> mysqli_sql_exception: Not unique table/alias: 'buku' in C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\app\Models\PenulisModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Penulis.php(20): App\Models\PenulisModel->getPenulis()
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Penulis->index()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-21 20:09:40 --> Not unique table/alias: 'buku'
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\app\Models\PenulisModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Penulis.php(20): App\Models\PenulisModel->getPenulis()
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Penulis->index()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-05-21 20:09:40 --> mysqli_sql_exception: Not unique table/alias: 'buku' in C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\app\Models\PenulisModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Penulis.php(20): App\Models\PenulisModel->getPenulis()
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Penulis->index()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-21 20:09:40 --> Not unique table/alias: 'buku'
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\app\Models\PenulisModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Penulis.php(20): App\Models\PenulisModel->getPenulis()
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Penulis->index()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-05-21 20:09:54 --> mysqli_sql_exception: Not unique table/alias: 'buku' in C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\app\Models\PenulisModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Penulis.php(20): App\Models\PenulisModel->getPenulis()
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Penulis->index()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-21 20:09:54 --> Not unique table/alias: 'buku'
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\app\Models\PenulisModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Penulis.php(20): App\Models\PenulisModel->getPenulis()
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Penulis->index()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-05-21 20:09:55 --> mysqli_sql_exception: Not unique table/alias: 'buku' in C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\app\Models\PenulisModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Penulis.php(20): App\Models\PenulisModel->getPenulis()
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Penulis->index()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-21 20:09:55 --> Not unique table/alias: 'buku'
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\app\Models\PenulisModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Penulis.php(20): App\Models\PenulisModel->getPenulis()
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Penulis->index()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-21 20:12:11 --> Array to string conversion
+#0 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Penulis.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Penulis->index()
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penulis))
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-05-21 23:47:10 --> mysqli_sql_exception: Duplicate entry '9786024125189' for key 'PRIMARY' in C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `bu...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\app\Models\BukuModel.php(44): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Admin.php(36): App\Models\BukuModel->insertBuku(Array)
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->addDataProcess()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-21 23:47:10 --> Duplicate entry '9786024125189' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `bu...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\app\Models\BukuModel.php(44): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Admin.php(36): App\Models\BukuModel->insertBuku(Array)
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->addDataProcess()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-21 23:48:06 --> Array to string conversion
+#0 C:\xampp\htdocs\pemweb\projek-akhir\app\Views\buku\form.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('buku/form', Array, true)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Admin.php(32): view('buku/form', Array)
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->editData('9786020332949')
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-21 23:49:19 --> Call to undefined method App\Models\BukuModel::updateBuku
+#0 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Admin.php(45): CodeIgniter\Model->__call('updateBuku', Array)
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin->editDataProcess()
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

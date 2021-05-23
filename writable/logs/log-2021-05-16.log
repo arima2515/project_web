@@ -1,0 +1,180 @@
+CRITICAL - 2021-05-16 07:33:03 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-16 07:33:33 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-16 07:33:40 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-16 07:34:08 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-16 07:34:09 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-16 07:34:11 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-16 07:34:13 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-16 07:34:14 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-16 07:42:59 --> Invalid file: login_form.php
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login_form.php')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login_form', Array, true)
+#2 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Login.php(19): view('login_form')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-16 23:24:20 --> Invalid file: login_form.php
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login_form.php')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login_form', Array, true)
+#2 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Login.php(22): view('login_form')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-16 23:24:48 --> Invalid file: login_form.php
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login_form.php')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login_form', Array, true)
+#2 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Login.php(22): view('login_form')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-16 23:25:27 --> Invalid file: formLogin.php
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formLogin.php')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('formLogin', Array, true)
+#2 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Login.php(22): view('formLogin')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-16 23:25:28 --> Invalid file: formLogin.php
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formLogin.php')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('formLogin', Array, true)
+#2 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Login.php(22): view('formLogin')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-16 23:25:50 --> Invalid file: login/formLogin.php
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/formLogin...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login/formLogin', Array, true)
+#2 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Login.php(22): view('login/formLogin')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-16 23:25:51 --> Invalid file: login/formLogin.php
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/formLogin...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login/formLogin', Array, true)
+#2 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Login.php(22): view('login/formLogin')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-16 23:25:55 --> Invalid file: /login/formLogin.php
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/login/formLogi...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('/login/formLogi...', Array, true)
+#2 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Login.php(22): view('/login/formLogi...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-16 23:25:56 --> Invalid file: /login/formLogin.php
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/login/formLogi...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('/login/formLogi...', Array, true)
+#2 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Login.php(22): view('/login/formLogi...')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-16 23:26:32 --> Invalid file: login/formLogin.php
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/formLogin...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login/formLogin', Array, true)
+#2 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Login.php(22): view('login/formLogin')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-16 23:27:54 --> Invalid file: login/formLogin.php
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/formLogin...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login/formLogin', Array, true)
+#2 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Login.php(22): view('login/formLogin')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-16 23:28:25 --> Invalid file: login/formLogin.php
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/formLogin...')
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login/formLogin', Array, true)
+#2 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Login.php(22): view('login/formLogin')
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-16 23:28:55 --> Undefined variable $title
+#0 C:\xampp\htdocs\pemweb\projek-akhir\app\Views\layout\template.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('login/loginForm', Array, true)
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Login.php(22): view('login/loginForm')
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-16 23:30:40 --> Too few arguments to function App\Controllers\Login::login_process(), 0 passed in C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->login_process()
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-16 23:31:35 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-05-16 23:47:36 --> Undefined variable $title
+#0 C:\xampp\htdocs\pemweb\projek-akhir\app\Views\layout\template.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\View\View.php(236): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('pages/homepage', Array, true)
+#5 C:\xampp\htdocs\pemweb\projek-akhir\app\Controllers\Login.php(32): view('pages/homepage')
+#6 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Login->login_process()
+#7 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pemweb\projek-akhir\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pemweb\projek-akhir\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
